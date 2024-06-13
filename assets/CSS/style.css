@@ -1,0 +1,40 @@
+
+.home{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.443) 0%, 
+    rgba(92, 77, 66, 0.701) 100%), url(../img/bg-masthead.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.nav-link:hover{
+    color: #f4623a;
+}
+.mainColor{
+    color: #f4623a;
+}
+.mainBgColor{
+    background-color: #f4623a;
+}
+/* .navbar{
+    background-color: #433730cf;
+} */
+
+.getLine{
+    width: 4rem;
+    height: 0.3rem;
+    margin: auto;
+    opacity: 1;
+}
+
+#portfolio_sheet{
+    overflow: hidden;
+}
+#portfolio_sheet .row .col .shad{visibility: hidden;}
+#portfolio_sheet .row .col:hover .shad{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    background-color: #f4623ad6;
+    transition: 0.5s;
+}
