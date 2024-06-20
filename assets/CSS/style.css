@@ -38,3 +38,19 @@
     background-color: #f4623ad6;
     transition: 0.5s;
 }
+
+.Box{
+    background-color: rgba(0, 0, 0,0.7 );
+    #Bast{
+        cursor: pointer;
+    }
+    #Next{
+        cursor: pointer;
+    }
+    .boxItem{
+        #Close{
+            top: -50px;
+            cursor: pointer;
+        }
+    }
+}
